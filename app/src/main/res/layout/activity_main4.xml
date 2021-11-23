@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4" >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:backgroundTint="#9F2929"
+        android:text="Sucursales"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/primario"
+        android:foregroundTint="@color/purple_200"
+        android:orientation="horizontal">
+
+      <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sucursal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="282dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20px">
+
+          <TextView
+              android:id="@+id/textView17"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20px"
+              android:layout_marginBottom="20px"
+              android:text="Tienda Principal" />
+
+          <TextView
+              android:id="@+id/textView19"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="20px"
+              android:text="Cra 878# N -55" />
+
+          <Button
+              android:id="@+id/botonSucursal1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Contactar" />
+        </LinearLayout>
+
+      </TableRow>
+
+      <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sucursal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="282dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20px">
+
+          <TextView
+              android:id="@+id/textView20"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20px"
+              android:layout_marginBottom="20px"
+              android:text="Atendemos en nuestra tienda" />
+
+          <TextView
+              android:id="@+id/textView21"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="20px"
+              android:text="Cra 9a #55 Este" />
+
+          <Button
+              android:id="@+id/botonSucursal2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Contactar" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/texto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+      </TableRow>
+
+      <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+      <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+    </TableLayout>
+  </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
